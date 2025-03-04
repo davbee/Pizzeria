@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>329</width>
+    <height>282</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QCheckBox" name="cbBellPepper">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>74</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Bell Pepper $1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblSalesTax">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>194</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>9% Sales Tax</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbOnion">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>120</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Onion $1</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbPepperoni">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>97</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pepperoni $4</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbLarge">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>32</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Large $15</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lePrice">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>168</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leSalesTax">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>194</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbMushroom">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>97</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mushroom $1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbOrder">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>246</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Order</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbMedium">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>32</y>
+     <width>91</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Medium $10</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbBeef">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>74</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Beef $4</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblTotal">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>220</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Total</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbExit">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>246</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbChicken">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>143</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Chicken $2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblTopping">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>52</y>
+     <width>281</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Choose your favorite toppings: $1 each</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblPrice">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>168</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Price</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="rbSmall">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>32</y>
+     <width>71</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Small $5</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbPork">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pork $3</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblChooseSize">
+   <property name="geometry">
+    <rect>
+     <x>7</x>
+     <y>1</y>
+     <width>145</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Choose the size of your pizza:</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="cbTomato">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>143</y>
+     <width>101</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tomato $1</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="leTotal">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>220</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
